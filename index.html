@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Polished Abode | Luxury Home Detailing | Hampton Roads, VA</title>
+  <meta name="description" content="Premium luxury home cleaning and detailing services in Hampton Roads, VA. Where detail meets devotion. Licensed & Insured. Call 757-268-4811." />
+  <meta name="keywords" content="luxury home cleaning Hampton Roads, house cleaning Virginia Beach, home detailing Norfolk, move in cleaning Hampton Roads" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <!-- Preloader -->
+  <div class="preloader" id="preloader">
+    <div class="preloader-inner">
+      <span class="preloader-monogram">PA</span>
+      <div class="preloader-bar"></div>
+      <span class="preloader-sub">The Polished Abode</span>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <span class="logo-mark">PA</span>
+        <div class="logo-text-wrap">
+          <span class="logo-name">The Polished Abode</span>
+          <span class="logo-tagline">Luxury Home Detailing</span>
+        </div>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#promise" class="nav-link">Our Promise</a></li>
+        <li><a href="#process" class="nav-link">Process</a></li>
+        <li><a href="#area" class="nav-link">Service Area</a></li>
+      </ul>
+      <a href="tel:7572684811" class="btn-nav">Book a Clean</a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-close" id="mobileClose">&#10005;</button>
+    <div class="mobile-brand">
+      <span class="mobile-mark">PA</span>
+    </div>
+    <ul class="mobile-links">
+      <li><a href="#services" class="mobile-link">Services</a></li>
+      <li><a href="#promise" class="mobile-link">Our Promise</a></li>
+      <li><a href="#process" class="mobile-link">Process</a></li>
+      <li><a href="#area" class="mobile-link">Service Area</a></li>
+    </ul>
+    <a href="tel:7572684811" class="mobile-book-btn">Call to Book</a>
+    <p class="mobile-number">757-268-4811</p>
+    <p class="mobile-license">Licensed &amp; Insured</p>
+  </div>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-left">
+        <div class="hero-eyebrow reveal">
+          <span class="eyebrow-dot">✦</span>
+          <span>Licensed &amp; Insured &nbsp;·&nbsp; Hampton Roads, VA</span>
+        </div>
+        <h1 class="hero-headline reveal">
+          Your Home,<br />
+          <em>Elevated.</em>
+        </h1>
+        <p class="hero-sub reveal">
+          Where detail meets devotion. We provide premium cleaning and meticulous care that transforms the way you live — not just clean, but polished.
+        </p>
+        <div class="hero-actions reveal">
+          <a href="tel:7572684811" class="btn-primary">
+            <span class="btn-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.07 13.6a19.79 19.79 0 01-3.07-8.67A2 2 0 013 3h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 10.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 17v-.08z"></path></svg>
+            </span>
+            Book a Clean
+          </a>
+          <a href="#services" class="btn-outline">View Services</a>
+        </div>
+        <div class="hero-trust reveal">
+          <div class="trust-pill">
+            <span class="trust-star">✦</span>Premium Care
+          </div>
+          <div class="trust-sep"></div>
+          <div class="trust-pill">
+            <span class="trust-star">✦</span>Elevated Standards
+          </div>
+          <div class="trust-sep"></div>
+          <div class="trust-pill">
+            <span class="trust-star">✦</span>Licensed &amp; Insured
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right reveal">
+        <div class="hero-frame">
+          <img
+            src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=900&q=80"
+            alt="Spotlessly clean luxury home interior"
+            class="hero-photo"
+          />
+          <div class="frame-overlay"></div>
+          <div class="hero-float-badge">
+            <span class="float-star">✦</span>
+            <span>Detail Obsessed</span>
+          </div>
+        </div>
+        <div class="hero-circle-deco"></div>
+        <div class="hero-dot-grid"></div>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-hint">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ============ MARQUEE ============ -->
+  <div class="marquee-wrap">
+    <div class="marquee-inner">
+      <div class="marquee-track">
+        <span>Premium Care</span><span class="mdot">✦</span>
+        <span>Licensed &amp; Insured</span><span class="mdot">✦</span>
+        <span>Hampton Roads</span><span class="mdot">✦</span>
+        <span>Detail-Obsessed</span><span class="mdot">✦</span>
+        <span>Elevated Standards</span><span class="mdot">✦</span>
+        <span>Where Detail Meets Devotion</span><span class="mdot">✦</span>
+        <span>Premium Care</span><span class="mdot">✦</span>
+        <span>Licensed &amp; Insured</span><span class="mdot">✦</span>
+        <span>Hampton Roads</span><span class="mdot">✦</span>
+        <span>Detail-Obsessed</span><span class="mdot">✦</span>
+        <span>Elevated Standards</span><span class="mdot">✦</span>
+        <span>Where Detail Meets Devotion</span><span class="mdot">✦</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow-label">What We Offer</span>
+        <h2 class="section-title">Tailored Cleaning,<br /><em>Perfected.</em></h2>
+        <p class="section-desc">Every service is performed with precision and care that exceeds what ordinary cleaning companies deliver. This is home detailing — not housekeeping.</p>
+      </div>
+
+      <div class="services-grid">
+
+        <div class="svc-card reveal">
+          <div class="svc-num">01</div>
+          <div class="svc-icon-ring">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <h3>Standard Clean</h3>
+          <p>A thorough top-to-bottom cleaning of all living spaces, kitchens, bathrooms, and common areas. Consistent, reliable, and beautifully done every single time.</p>
+          <div class="svc-link">Learn More <span>→</span></div>
+        </div>
+
+        <div class="svc-card reveal">
+          <div class="svc-num">02</div>
+          <div class="svc-icon-ring">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>Deep Clean</h3>
+          <p>Our most comprehensive service. Every corner, surface, and hidden detail addressed with meticulous precision. Ideal for first-time clients and seasonal resets.</p>
+          <div class="svc-link">Learn More <span>→</span></div>
+        </div>
+
+        <div class="svc-card reveal">
+          <div class="svc-num">03</div>
+          <div class="svc-icon-ring">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="3" width="15" height="13" rx="1"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+          </div>
+          <h3>Move In / Move Out</h3>
+          <p>Start fresh or leave it spotless. We handle every detail of your transition — so you can focus on the next chapter without the stress of a dirty space behind you.</p>
+          <div class="svc-link">Learn More <span>→</span></div>
+        </div>
+
+        <div class="svc-card reveal">
+          <div class="svc-num">04</div>
+          <div class="svc-icon-ring">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 014-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 01-4 4H3"/></svg>
+          </div>
+          <h3>Recurring Maintenance</h3>
+          <p>Weekly, bi-weekly, or monthly — we maintain your home at its finest on a schedule that fits your life. Consistency is the foundation of a polished home.</p>
+          <div class="svc-link">Learn More <span>→</span></div>
+        </div>
+
+        <div class="svc-card reveal">
+          <div class="svc-num">05</div>
+          <div class="svc-icon-ring">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+          </div>
+          <h3>Vacation Rental Turnover</h3>
+          <p>Fast, flawless turnovers for Airbnb and short-term rentals. We make every guest check-in feel like the very first time — polished, fresh, and ready to impress.</p>
+          <div class="svc-link">Learn More <span>→</span></div>
+        </div>
+
+        <div class="svc-card reveal">
+          <div class="svc-num">06</div>
+          <div class="svc-icon-ring">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </div>
+          <h3>Post-Construction</h3>
+          <p>Dust, debris, and construction residue — completely gone. We restore your newly built or renovated space to the immaculate condition it was always meant to be.</p>
+          <div class="svc-link">Learn More <span>→</span></div>
+        </div>
+
+      </div>
+
+      <div class="services-cta reveal">
+        <a href="tel:7572684811" class="btn-primary">Get Your Free Quote</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROMISE ============ -->
+  <section class="promise" id="promise">
+    <div class="promise-backdrop"></div>
+    <div class="container">
+      <div class="section-head light reveal">
+        <span class="eyebrow-label light-label">The Polished Standard</span>
+        <h2 class="section-title light-title">Why Clients Choose<br /><em>The Polished Abode</em></h2>
+      </div>
+      <div class="promise-grid">
+        <div class="promise-card reveal">
+          <div class="promise-num">01</div>
+          <h3>Licensed &amp; Insured</h3>
+          <p>Every visit is fully covered. You welcome us into your home with complete peace of mind — we handle everything with professionalism and genuine care.</p>
+        </div>
+        <div class="promise-card reveal">
+          <div class="promise-num">02</div>
+          <h3>Meticulous Detail</h3>
+          <p>We don't cut corners — ever. Our team moves through your home with intention, addressing every surface, edge, and space that others overlook entirely.</p>
+        </div>
+        <div class="promise-card reveal">
+          <div class="promise-num">03</div>
+          <h3>Elevated Products</h3>
+          <p>We use premium, safe cleaning solutions that protect your surfaces, finishes, and family — delivering an exceptional clean without compromise or harsh chemicals.</p>
+        </div>
+        <div class="promise-card reveal">
+          <div class="promise-num">04</div>
+          <h3>Your Satisfaction</h3>
+          <p>We are not finished until your home is exactly where it should be. Your satisfaction is not a bonus — it is the standard we hold ourselves to on every job.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROCESS ============ -->
+  <section class="process" id="process">
+    <div class="container">
+      <div class="process-layout">
+        <div class="process-left reveal">
+          <span class="eyebrow-label">How It Works</span>
+          <h2 class="section-title">Simple.<br />Seamless.<br /><em>Spotless.</em></h2>
+          <p class="process-desc">From your first call to your final walkthrough, we make the entire experience as effortless as the home we leave behind.</p>
+          <a href="tel:7572684811" class="btn-primary">Start Today</a>
+        </div>
+        <div class="process-steps">
+          <div class="process-step reveal">
+            <div class="step-marker">
+              <span class="step-num">01</span>
+              <div class="step-bar"></div>
+            </div>
+            <div class="step-body">
+              <h3>Book Your Clean</h3>
+              <p>Call or message us to schedule your service. We'll confirm your date, walk through the scope, and answer every question you have upfront — no surprises.</p>
+            </div>
+          </div>
+          <div class="process-step reveal">
+            <div class="step-marker">
+              <span class="step-num">02</span>
+              <div class="step-bar"></div>
+            </div>
+            <div class="step-body">
+              <h3>We Arrive Ready</h3>
+              <p>Our team shows up on time, fully equipped, and focused. No shortcuts. No distractions. Just professional, methodical service from the very first moment we walk in.</p>
+            </div>
+          </div>
+          <div class="process-step reveal">
+            <div class="step-marker">
+              <span class="step-num">03</span>
+            </div>
+            <div class="step-body">
+              <h3>Spotless Results</h3>
+              <p>Walk through your home to a standard that speaks for itself. Every surface polished. Every corner addressed. Every detail, completed to perfection.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICE AREA ============ -->
+  <section class="area" id="area">
+    <div class="container">
+      <div class="area-layout">
+        <div class="area-text reveal">
+          <span class="eyebrow-label">Service Area</span>
+          <h2 class="section-title">Proudly Serving<br /><em>Hampton Roads</em></h2>
+          <p>We serve homeowners and property managers across the entire Hampton Roads region. If your home is in this area, we're ready to make it shine.</p>
+          <a href="tel:7572684811" class="btn-primary">Check Your Area</a>
+        </div>
+        <div class="area-cities reveal">
+          <div class="city-badge">Virginia Beach</div>
+          <div class="city-badge">Norfolk</div>
+          <div class="city-badge">Chesapeake</div>
+          <div class="city-badge">Portsmouth</div>
+          <div class="city-badge">Suffolk</div>
+          <div class="city-badge">Hampton</div>
+          <div class="city-badge">Newport News</div>
+          <div class="city-badge">Williamsburg</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA SECTION ============ -->
+  <section class="cta-section" id="contact">
+    <div class="cta-bg-layer"></div>
+    <div class="container">
+      <div class="cta-inner reveal">
+        <div class="cta-ornament">✦ &nbsp; ✦ &nbsp; ✦</div>
+        <h2 class="cta-headline">Your Home Deserves<br /><em>This Level of Care.</em></h2>
+        <p class="cta-sub">Call us today and experience what luxury home detailing truly feels like. Hampton Roads' premier clean is one phone call away.</p>
+        <a href="tel:7572684811" class="btn-white-cta">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.07 13.6a19.79 19.79 0 01-3.07-8.67A2 2 0 013 3h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 10.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 17v-.08z"></path></svg>
+          Call 757-268-4811
+        </a>
+        <p class="cta-note">Licensed &amp; Insured &nbsp;·&nbsp; Hampton Roads, VA</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="footer-mark">PA</span>
+            <div>
+              <span class="footer-name">The Polished Abode</span>
+              <span class="footer-sub-tag">Luxury Home Detailing</span>
+            </div>
+          </div>
+          <p class="footer-tagline"><em>Where detail meets devotion.</em></p>
+          <p class="footer-desc">Premium cleaning and meticulous home care for Hampton Roads homeowners who expect nothing less than perfect.</p>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-heading">Services</h4>
+          <ul class="footer-list">
+            <li><a href="#services">Standard Clean</a></li>
+            <li><a href="#services">Deep Clean</a></li>
+            <li><a href="#services">Move In / Move Out</a></li>
+            <li><a href="#services">Recurring Maintenance</a></li>
+            <li><a href="#services">Vacation Rental Turnover</a></li>
+            <li><a href="#services">Post-Construction</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-heading">Contact</h4>
+          <a href="tel:7572684811" class="footer-phone">757-268-4811</a>
+          <p class="footer-location">Hampton Roads, Virginia</p>
+          <span class="footer-badge">Licensed &amp; Insured</span>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 The Polished Abode. All rights reserved.</p>
+        <p class="footer-credit">Built by <a href="https://ronlenserdigital.com" target="_blank" rel="noopener">Ron Lenser Digital</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Call Button (Mobile) -->
+  <a href="tel:7572684811" class="float-btn" aria-label="Call Now">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.07 13.6a19.79 19.79 0 01-3.07-8.67A2 2 0 013 3h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 10.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 17v-.08z"></path></svg>
+    Call Now
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
